@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Fil Rouge.iml" filepath="$PROJECT_DIR$/.idea/Fil Rouge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/filRougeSymfony.iml" filepath="$PROJECT_DIR$/.idea/filRougeSymfony.iml" />
     </modules>
   </component>
 </project>
