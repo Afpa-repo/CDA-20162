@@ -84,7 +84,55 @@ class __TwigTemplate_75c5f42bfbb9fcf3842769a44cff402976a93533827d560f6fab1cb835f
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        echo "ici mon code html";
+        // line 6
+        echo "    <!--  Pub centrale  -->
+    <div class=\"row pub\">
+        <div class=\"col\">
+            <img class=\"pubUn\" src=\"assets/img/BODY/pub%20guitare.png\" alt=\"pubguitare\" title=\"pubguitare\">
+        </div>
+
+        <div class=\"col\">
+            <img class=\"pubDeux\" src=\"assets/img/BODY/banniere%20droite%20prix.png\" alt=\"bannieredroite\" title=\"bannieredroite\">
+        </div>
+    </div>
+
+    <!--  Bannière centrale  -->
+    <div class=\"banniereCentre\">
+        <img src=\"assets/img/BODY/banniere%20centre%204%20pictos.png\" alt=\"bannierecentre\" title=\"bannierecentre\">
+    </div>
+
+    <!--  Les catégories  -->
+    <div class=\"categorie\">
+        <h1>Nos catégories</h1>
+
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20guitare.png\" alt=\"categorieguitare\" title=\"categorieguitare\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20batterie.png\" alt=\"categoriebatterie\" title=\"categoriebatterie\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20piano.png\" alt=\"categoriepiano\" title=\"categoriepiano\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20micro.png\" alt=\"categoriemicro\" title=\"categoriemicro\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20sono.png\" alt=\"categoriesono\" title=\"categoriesono\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20cases.png\" alt=\"categoriecases\" title=\"categoriecases\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20cable.png\" alt=\"categoriecable\" title=\"categoriecable\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20saxo.png\" alt=\"categoriesaxo\" title=\"categoriesaxo\"></a>
+    </div>
+
+    <!--  Les meilleures ventes  -->
+    <div class=\"row vente\">
+        <div class=\"col-6\">
+            <h1>Nos meilleures ventes</h1>
+
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/TOP%20VENTES%20guitare.png\" alt=\"topguitare\" title=\"topguitare\"></a>
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/TOP%20VENTES%20saxo.png\" alt=\"topsaxo\" title=\"topsaxo\"></a>
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/TOP%20VENTES%20piano.png\" alt=\"toppiano\" title=\"toppiano\"></a>
+        </div>
+
+        <!--  Les partenaires  -->
+        <div class=\"col-6 partenaires\">
+            <h1>Nos partenaires</h1>
+
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/partenaires%204%20logos.png\" alt=\"partenaires\" title=\"partenaires\"></a>
+        </div>
+    </div>
+";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -105,7 +153,7 @@ class __TwigTemplate_75c5f42bfbb9fcf3842769a44cff402976a93533827d560f6fab1cb835f
 
     public function getDebugInfo()
     {
-        return array (  78 => 5,  59 => 3,  36 => 1,);
+        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -114,6 +162,54 @@ class __TwigTemplate_75c5f42bfbb9fcf3842769a44cff402976a93533827d560f6fab1cb835f
 
 {% block title %}Page d'accueil{% endblock %}
 
-{% block body %}ici mon code html{% endblock %}", "home/index.html.twig", "C:\\Users\\80010-78-14\\Desktop\\filRougeSymfony\\filRougeSymfony\\templates\\home\\index.html.twig");
+{% block body %}
+    <!--  Pub centrale  -->
+    <div class=\"row pub\">
+        <div class=\"col\">
+            <img class=\"pubUn\" src=\"assets/img/BODY/pub%20guitare.png\" alt=\"pubguitare\" title=\"pubguitare\">
+        </div>
+
+        <div class=\"col\">
+            <img class=\"pubDeux\" src=\"assets/img/BODY/banniere%20droite%20prix.png\" alt=\"bannieredroite\" title=\"bannieredroite\">
+        </div>
+    </div>
+
+    <!--  Bannière centrale  -->
+    <div class=\"banniereCentre\">
+        <img src=\"assets/img/BODY/banniere%20centre%204%20pictos.png\" alt=\"bannierecentre\" title=\"bannierecentre\">
+    </div>
+
+    <!--  Les catégories  -->
+    <div class=\"categorie\">
+        <h1>Nos catégories</h1>
+
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20guitare.png\" alt=\"categorieguitare\" title=\"categorieguitare\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20batterie.png\" alt=\"categoriebatterie\" title=\"categoriebatterie\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20piano.png\" alt=\"categoriepiano\" title=\"categoriepiano\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20micro.png\" alt=\"categoriemicro\" title=\"categoriemicro\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20sono.png\" alt=\"categoriesono\" title=\"categoriesono\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20cases.png\" alt=\"categoriecases\" title=\"categoriecases\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20cable.png\" alt=\"categoriecable\" title=\"categoriecable\"></a>
+        <a href=\"views/.php\"><img class=\"categorieImg\" src=\"assets/img/BODY/CATEGORIES%20saxo.png\" alt=\"categoriesaxo\" title=\"categoriesaxo\"></a>
+    </div>
+
+    <!--  Les meilleures ventes  -->
+    <div class=\"row vente\">
+        <div class=\"col-6\">
+            <h1>Nos meilleures ventes</h1>
+
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/TOP%20VENTES%20guitare.png\" alt=\"topguitare\" title=\"topguitare\"></a>
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/TOP%20VENTES%20saxo.png\" alt=\"topsaxo\" title=\"topsaxo\"></a>
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/TOP%20VENTES%20piano.png\" alt=\"toppiano\" title=\"toppiano\"></a>
+        </div>
+
+        <!--  Les partenaires  -->
+        <div class=\"col-6 partenaires\">
+            <h1>Nos partenaires</h1>
+
+            <a href=\"views/.php\"><img src=\"assets/img/BODY/partenaires%204%20logos.png\" alt=\"partenaires\" title=\"partenaires\"></a>
+        </div>
+    </div>
+{% endblock %}", "home/index.html.twig", "C:\\Users\\tbhsi\\OneDrive\\Bureau\\filRougeSymfony\\templates\\home\\index.html.twig");
     }
 }

@@ -337,6 +337,13 @@
     <service id="kernel" class="App\Kernel" public="true" synthetic="true">
       <tag name="routing.route_loader"/>
     </service>
+    <service id="App\Controller\EspaceClientController" class="App\Controller\EspaceClientController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.vdmMuyE.App\Controller\EspaceClientController"/>
+      </call>
+    </service>
     <service id="App\Controller\homeController" class="App\Controller\homeController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
@@ -4930,6 +4937,9 @@
         <argument>server:status</argument>
       </call>
     </service>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\EspaceClientController" class="App\Controller\EspaceClientController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\EspaceClientController" class="App\Controller\EspaceClientController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\EspaceClientController" class="App\Controller\EspaceClientController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\homeController" class="App\Controller\homeController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\homeController" class="App\Controller\homeController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\homeController" class="App\Controller\homeController" autowire="true" autoconfigure="true" abstract="true"/>
@@ -5542,6 +5552,12 @@
         <argument key="session" type="service_closure" id="session" on-invalid="ignore"/>
         <argument key="twig" type="service_closure" id="twig" on-invalid="ignore"/>
       </argument>
+    </service>
+    <service id=".service_locator.vdmMuyE.App\Controller\EspaceClientController" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator_context" id="App\Controller\EspaceClientController"/>
+      <argument>App\Controller\EspaceClientController</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.vdmMuyE" method="withContext"/>
     </service>
     <service id=".service_locator.vdmMuyE.App\Controller\homeController" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator_context" id="App\Controller\homeController"/>
