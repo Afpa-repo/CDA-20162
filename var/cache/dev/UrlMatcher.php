@@ -13,6 +13,7 @@ return [
         '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
+        '/catalogue_produit' => [[['_route' => 'catalogue_produit', '_controller' => 'App\\Controller\\CatalogueProduitController::index'], null, null, null, false, false, null]],
         '/espace_client' => [[['_route' => 'espace_client', '_controller' => 'App\\Controller\\EspaceClientController::index'], null, null, null, false, false, null]],
         '/' => [
             [['_route' => 'home', '_controller' => 'App\\Controller\\homeController::index'], null, null, null, false, false, null],

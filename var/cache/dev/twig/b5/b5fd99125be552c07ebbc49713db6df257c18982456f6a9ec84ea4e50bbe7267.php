@@ -92,7 +92,7 @@ class __TwigTemplate_046e62fdcd6f0caf6f1d0e50d86295148d0e5c4ead60ee53c56fba3b975
                             <!--  Deuxième bande  -->
                             <div class=\"row bandeDeux\">
                                 <div class=\"col\">
-                                    <span class=\"bandeDeuxEspace\"><a href=\"views/produits.php\">Produits</a></span>
+                                    <span class=\"bandeDeuxEspace\"><a href=\"/catalogue_produit\">Produits</a></span>
                                     <span class=\"bandeDeuxEspace\"><a href=\"views/service.php\">Service</a></span>
                                     <span class=\"bandeDeuxEspace\"><a href=\"views/aide.php\">Aide</a></span>
                                     <span class=\"bandeDeuxEspace\"><a href=\"views/aPropos.php\">A propos</a></span>
@@ -281,7 +281,7 @@ class __TwigTemplate_046e62fdcd6f0caf6f1d0e50d86295148d0e5c4ead60ee53c56fba3b975
                             <!--  Deuxième bande  -->
                             <div class=\"row bandeDeux\">
                                 <div class=\"col\">
-                                    <span class=\"bandeDeuxEspace\"><a href=\"views/produits.php\">Produits</a></span>
+                                    <span class=\"bandeDeuxEspace\"><a href=\"/catalogue_produit\">Produits</a></span>
                                     <span class=\"bandeDeuxEspace\"><a href=\"views/service.php\">Service</a></span>
                                     <span class=\"bandeDeuxEspace\"><a href=\"views/aide.php\">Aide</a></span>
                                     <span class=\"bandeDeuxEspace\"><a href=\"views/aPropos.php\">A propos</a></span>
@@ -317,6 +317,6 @@ class __TwigTemplate_046e62fdcd6f0caf6f1d0e50d86295148d0e5c4ead60ee53c56fba3b975
         <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4\" crossorigin=\"anonymous\"></script>
     </body>
 </html>
-", "base.html.twig", "C:\\Users\\tbhsi\\OneDrive\\Bureau\\filRougeSymfony\\templates\\base.html.twig");
+", "base.html.twig", "C:\\Users\\80010-78-14\\Desktop\\filRougeSymfony\\templates\\base.html.twig");
     }
 }
